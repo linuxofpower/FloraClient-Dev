@@ -1,3 +1,6 @@
+// This page needs live API data; do not fetch it during CI/production builds.
+export const dynamic = 'force-dynamic'
+
 import {Cart} from '../../../comps/Cart/Cart'
 
 async function anyName() {
