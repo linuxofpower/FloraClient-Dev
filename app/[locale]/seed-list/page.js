@@ -1,3 +1,6 @@
+// This page needs live API data; do not fetch it during CI/production builds.
+export const dynamic = 'force-dynamic'
+
 import {Pages} from '../../../comps/Pages/Pages'
 import {List} from '../../../comps/List/List'
 import { revalidateTag } from 'next/cache'
